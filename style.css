@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: white; */
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: blueviolet;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.register a:hover {
+    background: transparent;
+    border: 1px solid blueviolet;
+}
+
+.h-text {
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* font-size: 1.5rem; */
+}
+
+.h-text span {
+    letter-spacing: 6px;
+}
+
+.h-text h1 {
+    font-size: 4rem;
+}
+
+.h-text a {
+    text-decoration: none;
+    background: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 6px;
+    transition: 0.3s;
+}
+
+.h-text a:hover {
+    background: transparent;
+    border: 1px solid blueviolet;
+}
