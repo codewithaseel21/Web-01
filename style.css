@@ -33,6 +33,14 @@ nav {
     color: white;
     padding: 10px 20px;
     font-size: 20px;
+    transition: 0.5s;
+
+}
+
+
+.menu a:hover {
+    background: transparent;
+    border: 1px solid rgb(110, 110, 110);
 }
 
 .register a {
@@ -81,4 +89,29 @@ nav {
 .h-text a:hover {
     background: transparent;
     border: 1px solid blueviolet;
+}
+
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+    }
 }
